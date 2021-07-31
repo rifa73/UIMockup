@@ -1,0 +1,17 @@
+  .text-heading
+  {
+      padding-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      
+      text-align: center;
+  }
+  .text{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 25px;
+    width: 240px;
+    height: 420px;
+    border-radius: 40px; 
+  }
+  

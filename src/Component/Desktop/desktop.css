@@ -1,0 +1,246 @@
+html, body {
+  width: 1000px;
+  height: 700px;
+ }
+.splitScreen {
+    display:flex;
+    flex-direction:row;
+  }
+  .topPane {
+    
+    width: 65%;
+    padding: 100px 120px ;
+    
+  }
+  .bottom-Pane {
+    padding-top: 80px;
+    width: 35%;
+   padding-left: 9px;
+   padding-bottom: 50px;
+  }
+  
+ 
+  .customise{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .sub-text{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .text-editor-nav{
+    background-color: rgb(238, 235, 235);
+    width: 646px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .text-edit{
+    padding-bottom: 20px;
+  }
+  .button{
+    background-color: rgb(18, 155, 201); /* Green */
+    border-radius: 4px;
+    color: white;
+    padding-bottom: 13px;
+    border-color: rgb(18, 155, 201);
+    text-align: center;
+  
+    font-size: 25px;
+    width: 170px;
+  }
+  .button-pub{
+    padding-top: 30px;
+  }
+  .angle-left{
+    font-size: 40px;
+    
+    padding-left: 25px;
+  }
+  .text-icon{
+   float: right;
+   padding-right: 20px;
+   font-size: 30px;
+
+    
+  }
+  .mobile-background{
+    background-color: rgb(217, 240, 248);
+   height: 700px;
+   width: 322px;
+   padding-left: 10px;
+   
+  }
+  .mobile-blue{
+    
+    background-color: rgb(217, 240, 248);
+   
+    margin-top: 20px;
+    margin-right: 110px;
+    padding-right: 20px;
+    
+    width: 290px;
+    height: 650px;
+    border-radius: 55px; 
+    margin-left: 10px;
+  }
+
+  
+  .strip{
+    position:absolute;
+    width:160px;
+    height:30px;
+    background-color:white;
+    left:1160px;
+    margin-top:52px;
+    transform:translate(-50%, 0);
+    border-radius:0px 0px 20px 20px;
+    
+    top:-2px;
+  }
+  
+  .circleHolder{
+    position:relative;
+    overflow:hidden;
+    
+    height:16px;
+    width:300px;
+    left:50%;
+  
+  }
+  
+  .circle1{
+    
+    height:70px;
+    width:80px;
+    background:white;
+    border-radius:50%;
+    
+    position:absolute;
+    left:-70px;
+    top:-23px;
+    transform: skewX(20deg);
+  }
+  
+  
+  
+  .stripItems{
+    height:20px;
+    width:100%;
+  
+    position:relative;
+    top:-16px;
+  }
+  
+  .camera{
+    top: 10%;
+    left:70%;
+    height:15px;
+    width:15px;
+    position:absolute;
+    transform:scale(0.8);
+    border-radius:40px;
+    background-color:white;
+    border-color: lightgray;
+    box-shadow:inset 0px 0px 4px 2px lightgray;
+    overflow:hidden;
+  }
+  
+  
+  .speaker{
+    height:40%;
+    width:30%;
+    background:rgb(226, 223, 223);
+    left:50%;
+    top:50%;
+    position:relative;
+    transform:translate(-50%, -50%);
+    border-radius:20px;
+  }
+  
+  
+  .outer-mobile-border{
+    background-color: white;
+   border: 8px solid rgb(219, 216, 216);
+    margin-top: 30px;
+    margin-right: 90px;
+    padding-right: 10px;
+    margin-left: 100px;
+    width: 320px;
+    height: 685px;
+    border-radius: 55px; 
+  }
+  
+
+  .Button{
+    position:absolute;
+    width:6px;
+    
+    
+    background:rgb(219, 216, 216);
+    
+  }
+  
+  .toggleButton{
+    height:25px;
+    top:140px;
+    left: 987px;
+    border-radius: 70px;
+  }
+  
+  .volumeButtonUp{
+    height:50px;
+    top:200px;
+    left: 987px;
+    border-radius: 70px;
+  }
+  
+  .volumeButtonDown{
+    height:50px;
+    top:270px;
+    left: 987px;
+    border-radius: 70px;
+
+  }
+  
+  .powerButton{
+    left:1333px;
+    top:220px;
+    height:70px;
+    border-radius: 70px;
+  }
+  
+  .space{
+    position:absolute;
+    width:8px;
+    background:white;
+  }
+  .space1{
+    height:13px;
+    top:90px;
+
+    left: 990px;
+  }
+  
+  .space2{
+    height:13px;
+    top:90px;
+
+    left: 1328px;
+  }
+  .space3{
+    height:13px;
+    top:660px;
+
+    left: 990px;
+  }
+  .space4{
+    height:13px;
+    top:660px;
+
+    left:1328px;
+  } 
+  
